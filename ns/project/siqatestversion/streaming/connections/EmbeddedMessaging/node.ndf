@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">streamingAccount</value>
+  <value name="node_nsName">project.siqatestversion.streaming.connections:EmbeddedMessaging</value>
+  <value name="node_pkg">SiqatestversionProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">SiqatestversionProject.project.siqatestversion.streaming.connections:EmbeddedMessaging</value>
+  <value name="connectionName">EmbeddedMessaging</value>
+  <value name="description">This is the default embedded messaging account</value>
+  <value name="providerURI">nhps://f02-m-stage00-um-svc-http.test-m.svc.cluster.local:443/</value>
+  <value name="clientId">EMc5952e6d05914ec88109e1354126589f</value>
+  <value name="securityProtocol"></value>
+  <value name="keystoreAlias"></value>
+  <value name="keystoreKeyAlias"></value>
+  <value name="truststoreAlias"></value>
+  <value name="additionalProperties">streaming.connection.factory=embeddedMessaging</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">bugbash1</value>
+    <value name="modifiedBy">bugbash1</value>
+    <value name="createdDate">2026-11-11T15:47:39.690364823Z</value>
+    <value name="lastModifiedDate">2026-11-11T15:47:39.690364823Z</value>
+  </record>
+</Values>

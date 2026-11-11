@@ -1,22 +1,22 @@
-version: "1.0"
 info:
   model: int-scaffold
 packages:
-- name: SiqatestversionProject
+- gitBranch: release/1.0.0
   gitServerName: prabhakaribm_shared
   gitUrl: https://github.com/prabhakaribm
   gitUsername: prabhakaribm
-  gitBranch: main
+  name: SiqatestversionProject
 services:
-- serviceName: project.siqatestversion.integrations:debugDAF
-  packages:
+- packages:
   - name: SiqatestversionProject
-    version: "1.0"
-- serviceName: pub.flow:debugLog
-  packages:
+    version: 1.0.0
+  serviceName: project.siqatestversion.integrations:debugDAF
+- packages:
   - name: WmPublic
     version: 12.1.0.0.1330
-- serviceName: project.siqatestversion.streaming.connections:EmbeddedMessaging
-  packages:
+  serviceName: pub.flow:debugLog
+- packages:
   - name: SiqatestversionProject
-    version: "1.0"
+    version: 1.0.0
+  serviceName: project.siqatestversion.streaming.connections:EmbeddedMessaging
+version: 1.0.0

@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/prabhakaribm
   gitUsername: prabhakaribm
   gitBranch: main
+services:
+- serviceName: project.siqatestversion.integrations:debugDAF
+  packages:
+  - name: SiqatestversionProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1330
+- serviceName: project.siqatestversion.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: SiqatestversionProject
+    version: "1.0"
